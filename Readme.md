@@ -243,3 +243,5 @@ This project is for educational purposes. Feel free to use and modify as needed 
 ### WatermelonDB Deep Dive
 - **[Why WatermelonDB?](notes/watermelondb/intro.md)** - Understanding offline-first architecture, reactive patterns, and why WatermelonDB is essential for modern mobile apps
 - **[Setting Up WatermelonDB](notes/watermelondb/installation.md)** - Step-by-step installation and configuration guide
+- **[ARCHITECHTURE](notes/watermelondb/architechture.md)** - Architechture
+- **[Basic CRUD](notes/watermelondb/crud.md)** - Basic CRUD Syntax
