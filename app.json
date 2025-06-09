@@ -21,7 +21,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.MessageApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -29,11 +30,18 @@
     "plugins": [
       [
         "@morrowdigital/watermelondb-expo-plugin",
-        { "databases": ["morrow.db"] }
+        {
+          "databases": [
+            "morrow.db"
+          ]
+        }
       ],
       [
         "expo-build-properties",
         {
+          "ios": {
+            "useFrameworks": "static"
+          },
           "android": {
             "kotlinVersion": "1.6.10"
           }
