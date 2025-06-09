@@ -237,3 +237,9 @@ This project is for educational purposes. Feel free to use and modify as needed 
 **Happy Learning! 🚀**
 
 *This project represents a journey through modern mobile development technologies. Each commit is a step forward in understanding these tools and patterns.*
+
+## 📚 Detailed Notes & Documentation
+
+### WatermelonDB Deep Dive
+- **[Why WatermelonDB?](notes/watermelondb/intro.md)** - Understanding offline-first architecture, reactive patterns, and why WatermelonDB is essential for modern mobile apps
+- **[Setting Up WatermelonDB](notes/watermelondb/installation.md)** - Step-by-step installation and configuration guide
